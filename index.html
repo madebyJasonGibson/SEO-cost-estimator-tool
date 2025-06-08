@@ -1,0 +1,353 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Cost Estimator | Small Business Marketing Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-chart-bar"></i>
+                SEO Cost Estimator
+            </div>
+            <!-- <p class="subtitle">Empowering Small Business Marketing</p> -->
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Demystify Your SEO Investment</h1>
+            <p class="hero-subtitle">
+                Get a clear, personalized estimate of what it takes to boost your online presence and attract local customers.
+                Stop guessing, start growing.
+            </p>
+            <a href="#tool-section" class="cta-button">Get Started Now</a>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="benefits-content">
+            <h2>Why Use Our Estimator?</h2>
+            <div class="benefit-cards">
+                <div class="benefit-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Transparent Costs</h3>
+                    <p>Understand the potential investment tailored to your specific business needs and market.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-search-dollar"></i>
+                    <h3>Instant Analysis</h3>
+                    <p>Quickly analyze your current website's SEO performance to identify key areas for improvement.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Actionable Recommendations</h3>
+                    <p>Receive personalized recommendations on where to focus your SEO efforts for the best ROI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats & Testimonials Section -->
+    <section id="stats-testimonials-section" class="stats-testimonials-section">
+        <div class="stats-testimonials-content">
+            <h2>See the Impact Our Tool Has</h2>
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <i class="fas fa-calculator"></i>
+                    <h3>5,000+</h3>
+                    <p>Businesses Calculated Estimates</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-coins"></i>
+                    <h3>25%</h3>
+                    <p>Average Potential Cost Savings Identified</p>
+                </div>
+                 <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Informed Decisions</h3>
+                    <p>Users gain clarity on investment needs for growth</p>
+                </div>
+            </div>
+
+            <div class="testimonials-section">
+                 <h3>Hear From Our Users</h3>
+                 <div class="testimonials-scroller">
+                    <div class="testimonial-card">
+                        <p class="quote">"Before this tool, I was lost on what SEO should cost. Now I have a clear budget and plan!"</p>
+                        <p class="author">- Sarah M., Cafe Owner</p>
+                    </div>
+                     <div class="testimonial-card">
+                        <p class="quote">"The analysis feature highlighted issues I didn't even know existed on my site. Super helpful!"</p>
+                        <p class="author">- David L., Plumbing Service</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="quote">"Simple, fast, and gives actionable recommendations. Exactly what a small business needs."</p>
+                        <p class="author">- Jessica B., Online Boutique</p>
+                    </div>
+                     <div class="testimonial-card">
+                        <p class="quote">"The cost breakdown made so much sense. I feel much more confident talking to SEO agencies now."</p>
+                        <p class="author">- Mark R., Local Accountant</p>
+                    </div>
+                     <div class="testimonial-card">
+                        <p class="quote">"Provided exactly the insights I needed to prioritize my marketing spend."</p>
+                        <p class="author">- Emily C., Fitness Studio Owner</p>
+                    </div>
+                    <!-- Add more testimonial cards here -->
+                 </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- New CTA Section - Leading to Tool or Contact -->
+    <section id="action-section" class="action-section">
+        <div class="action-content">
+             <h2>Ready to See Your Potential?</h2>
+            <p>Our estimator gives you clarity, but a personalized strategy session reveals your full potential.</p>
+            <a href="#contact-us-section" class="cta-button">Request a Free Demo</a>
+        </div>
+    </section>
+
+    <!-- Main Tool Section -->
+    <section id="tool-section" class="tool-section">
+         <div class="app-container">
+            <!-- Main Content -->
+            <main class="main-content">
+                <div class="form-container">
+                    <h1>Get Your Personalized SEO Estimate</h1>
+                    <p class="description">
+                        Enter your business details below to get a personalized estimate
+                        of what it might cost to improve your SEO and online presence.
+                    </p>
+
+                    <form id="seo-form" class="seo-form">
+                        <!-- Business URL Input -->
+                        <div class="form-group">
+                            <label for="website-url">
+                                <i class="fas fa-globe"></i>
+                                Website URL
+                            </label>
+                            <input
+                                type="url"
+                                id="website-url"
+                                placeholder="https://yourbusiness.com"
+                                required
+                            >
+                            <button type="button" id="analyze-btn" class="analyze-btn">
+                                <i class="fas fa-search"></i>
+                                Analyze Site
+                            </button>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="form-group">
+                            <label for="location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Business Location
+                            </label>
+                            <select id="location" required>
+                                <option value="">Select your location</option>
+                                <option value="major-city">Major City (NYC, LA, Chicago)</option>
+                                <option value="mid-size-city">Mid-size City</option>
+                                <option value="small-city">Small City/Town</option>
+                                <option value="rural">Rural Area</option>
+                            </select>
+                        </div>
+
+                        <!-- Industry -->
+                        <div class="form-group">
+                            <label for="industry">
+                                <i class="fas fa-briefcase"></i>
+                                Industry
+                            </label>
+                            <select id="industry" required>
+                                <option value="">Select your industry</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="legal">Legal Services</option>
+                                <option value="real-estate">Real Estate</option>
+                                <option value="home-services">Home Services</option>
+                                <option value="retail">Retail</option>
+                                <option value="restaurants">Restaurants</option>
+                                <option value="automotive">Automotive</option>
+                                <option value="beauty">Beauty & Wellness</option>
+                                <option value="fitness">Fitness</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <!-- Current Rankings -->
+                        <div class="form-group">
+                            <label for="rankings">
+                                <i class="fas fa-trophy"></i>
+                                Current Google Rankings (Top 10)
+                            </label>
+                            <input
+                                type="range"
+                                id="rankings"
+                                min="0"
+                                max="20"
+                                value="0"
+                                class="slider"
+                            >
+                            <div class="slider-value">
+                                <span id="rankings-value">0</span> keywords
+                            </div>
+                        </div>
+
+                        <!-- Reviews -->
+                        <div class="form-group">
+                            <label for="reviews">
+                                <i class="fas fa-star"></i>
+                                Google Reviews Count
+                            </label>
+                            <input
+                                type="range"
+                                id="reviews"
+                                min="0"
+                                max="500"
+                                value="0"
+                                class="slider"
+                            >
+                            <div class="slider-value">
+                                <span id="reviews-value">0</span> reviews
+                            </div>
+                        </div>
+
+                        <!-- Current SEO Score -->
+                        <div class="form-group">
+                            <label for="seo-score">
+                                <i class="fas fa-chart-bar"></i>
+                                Current SEO Optimization
+                            </label>
+                            <input
+                                type="range"
+                                id="seo-score"
+                                min="0"
+                                max="100"
+                                value="50"
+                                class="slider"
+                            >
+                            <div class="slider-value">
+                                <span id="seo-score-value">50</span>% optimized
+                            </div>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-calculator"></i>
+                            Calculate SEO Investment
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Results Panel -->
+                <div id="results-panel" class="results-panel hidden">
+                    <div class="results-header">
+                        <h2>Your SEO Investment Estimate</h2>
+                        <p>Based on your business profile and current SEO status</p>
+                    </div>
+
+                    <div class="cost-breakdown">
+                        <div class="cost-card monthly">
+                            <h3>Monthly Investment</h3>
+                            <div class="cost-amount">
+                                $<span id="monthly-cost">0</span>
+                            </div>
+                            <p>Ongoing SEO & maintenance</p>
+                        </div>
+
+                        <div class="cost-card setup">
+                            <h3>Initial Setup</h3>
+                            <div class="cost-amount">
+                                $<span id="setup-cost">0</span>
+                            </div>
+                            <p>One-time optimization</p>
+                        </div>
+                    </div>
+
+                    <div class="recommendations">
+                        <h3>Recommended Actions</h3>
+                        <div id="recommendations-list" class="recommendations-list">
+                            <!-- Dynamic recommendations will be inserted here -->
+                        </div>
+                    </div>
+
+                    <div class="timeline">
+                        <h3>Expected Timeline</h3>
+                        <div class="timeline-item">
+                            <span class="timeline-period">0-3 months</span>
+                            <span class="timeline-goal">Foundation & Technical SEO</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-period">3-6 months</span>
+                            <span class="timeline-goal">Content & Local SEO Growth</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-period">6+ months</span>
+                            <span class="timeline-goal">Sustained Rankings & ROI</span>
+                        </div>
+                    </div>
+
+                    <button class="reset-btn" onclick="resetForm()">
+                        <i class="fas fa-redo"></i>
+                        Calculate for Different Business
+                    </button>
+                </div>
+            </main>
+
+            <!-- Site Analysis Modal -->
+            <div id="analysis-modal" class="modal hidden">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Analyzing Your Website...</h3>
+                        <button class="close-modal">&times;</button>
+                    </div>
+                    <div class="analysis-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <p id="analysis-status">Checking website structure...</p>
+                    </div>
+                    <div id="analysis-results" class="analysis-results hidden">
+                        <!-- Results will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section Anchor (Placeholder) -->
+    <section id="contact-us-section" class="contact-us-section hidden">
+        <!-- Content for the actual contact form could go here later -->
+        <!-- For now, this serves as the scroll target for the CTA -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2023 SEO Cost Estimator. All rights reserved.</p>
+            <!-- Add links for privacy, terms etc. if needed -->
+        </div>
+    </footer>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "./domElements.js": "./domElements.js",
+                "./uiManager.js": "./uiManager.js",
+                "./seoAnalyzer.js": "./seoAnalyzer.js",
+                "./costEstimator.js": "./costEstimator.js",
+                "./recommendationGenerator.js": "./recommendationGenerator.js"
+            }
+        }
+    </script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
